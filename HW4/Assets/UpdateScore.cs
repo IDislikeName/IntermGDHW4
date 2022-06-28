@@ -15,6 +15,6 @@ public class UpdateScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tmpro.text = GameManager.Instance.score + "";
+        tmpro.text = "Score: "+GameManager.Instance.score + "\nHealth: " + GameManager.Instance.currenthp;
     }
 }
